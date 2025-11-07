@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  color: #fff;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(to bottom, #020917, #101725);
+}
+
+.slider-container {
+  /*height: 100vh;*/
+  /*padding: 0 2rem;*/
+
+  .slider-content {
+    width: 100%;
+    height: inherit;
+  }
+
+  .slick-dots {
+    bottom: 0;
+
+    li {
+      button:before {
+        color: #999;
+      }
+
+      &.slick-active button:before {
+        color: #fff;
+      }
+    }
+  }
+}
